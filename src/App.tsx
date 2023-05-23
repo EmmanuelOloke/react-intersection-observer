@@ -22,6 +22,8 @@ function App() {
       }
     }, observerOptions);
 
+    console.log(intersecting);
+
     if (sentinelRef.current !== null) {
       observer.observe(sentinelRef.current);
     }
